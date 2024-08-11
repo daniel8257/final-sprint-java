@@ -82,24 +82,6 @@ public class ProductDAO {
         }
     }
 
-    public List<Product> getAllProducts() throws SQLException {
-        String sql = "SELECT * FROM Products";
-        try (Statement stmt = connection.createStatement()) {
-            ResultSet rs = stmt.executeQuery(sql);
-            List<Product> products = new ArrayList<>();
-            while (rs.next()) {
-                Product product = new Product();
-                product.setId(rs.getInt("id"));
-                product.setName(rs.getString("name"));
-                product.setPrice(rs.getDouble("price"));
-                product.setQuantity(rs.getInt("quantity"));
-                product.setSellerId(rs.getInt("seller_id"));
-                products.add(product);
-            }
-            return products;
-        }
-    }
-
     public Product getProductByName(String name) throws SQLException {
         String sql = "SELECT * FROM Products WHERE name = ?";
         try (PreparedStatement stmt = connection.prepareStatement(sql)) {
