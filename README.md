@@ -1,25 +1,39 @@
-## Team Contributions
+# Team Contributions and Challenges
 
-### Pavel worked on:
-- `Main.java`
-- `Product.java`
-- `ProductDAO.java`
-- `UserDAO.java`
-- `UserService.java`
-- `ecommerce.sql`
-- Created "Documentation for Console.docx"
+## Pavels
 
-### Danny contributed to:
-- "Documentation for Console.docx"
-- `Main.java`
-- `Product.java`
-- `ProductDAO.java`
-- `UserDAO.java`
-- `UserService.java`
-- `ecommerce.sql`
+- **Branches & Files:**
+  - Worked on `Product.java`, `ProductDAO.java`, `ProductService.java`, and `ecommerce.sql`.
+  
+- **Commit:**
+  - Focused on product management, DAO operations, and service logic.
+  
+- **Documentation:**
+  - Contributed to console usage documentation.
+  
+- **Challenges:**
+  - Database integration with PostgreSQL.
+  - Efficient DAO operations.
 
-## Challenges Faced
-Common challenges likely included:
-- Implementing DAO patterns
-- Database integration
-- Ensuring the functionality of service and main application files
+## Dannys
+
+- **Branches & Files:**
+  - Worked on `User.java`, `UserDAO.java`, `UserService.java`, `Admin.java`, `Buyer.java`, and `Seller.java`.
+  
+- **Commit:**
+  - Involved in user authentication, role management, and user services.
+  
+- **Challenges:**
+  - User authentication and password security using jBCrypt.
+  - Managing user roles.
+
+## General Challenges
+
+- **Database Integration:**
+  - Working with PostgreSQL and ensuring smooth integration.
+
+- **Security:**
+  - Implementing user authentication and securing passwords with jBCrypt.
+
+- **Documentation:**
+  - Ensuring comprehensive documentation for ease of use and developer understanding.
